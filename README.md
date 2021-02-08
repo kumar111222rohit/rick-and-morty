@@ -7,8 +7,8 @@ yarn install or npm  install
 
 once the installation is done:
 
-For production build:
-yarn build 
+For production build:<br/>
+yarn build <br/>
 or npm run build
 yarn start
 or npm run start
