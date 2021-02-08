@@ -16,7 +16,7 @@ const Character: React.FC<CharacterProps> = ({
   const getFirstSeenEpisodeName = (episodeURL: string) => {
     const splitArr = episodeURL.split("/");
     const eid = parseInt(splitArr[splitArr.length - 1]);
-    const firstEP = episodesData.find((e) => e.id === eid);
+    const firstEP = episodesData.find((e: any) => e.id === eid);
     return firstEP.name;
   };
   React.useEffect(() => {
@@ -40,7 +40,7 @@ const Character: React.FC<CharacterProps> = ({
                     target="_blank"
                     className="external-link"
                   >
-                    <h2>{item.name}</h2>
+                    <h2 id="charName">{item.name}</h2>
                   </a>
                   <span className="status">
                     <span

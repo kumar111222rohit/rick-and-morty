@@ -21,6 +21,6 @@ export type CharacterProps = {
       prev: string;
     };
   };
-  handlePagination: () => void;
+  handlePagination: (page: any) => void;
   episodesData: any;
 };
