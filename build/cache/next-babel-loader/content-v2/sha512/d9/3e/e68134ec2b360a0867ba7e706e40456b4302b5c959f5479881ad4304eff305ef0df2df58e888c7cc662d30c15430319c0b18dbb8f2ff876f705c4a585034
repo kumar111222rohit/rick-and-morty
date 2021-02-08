@@ -1,1 +1,0 @@
-{"ast":null,"code":"import Component from './App';\nexport default Component;","map":{"version":3,"sources":["/home/nobroker/personal/rnm/rick-and-morty/components/App/index.tsx"],"names":["Component"],"mappings":"AAAA,OAAOA,SAAP,MAAsB,OAAtB;AAEA,eAAeA,SAAf","sourcesContent":["import Component from './App';\n\nexport default Component;\n"]},"metadata":{},"sourceType":"module"}
