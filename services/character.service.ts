@@ -1,7 +1,7 @@
 import getURL from "../utils/rickAndMortyUrl";
 //generic APICall method
 export default class Character {
-  static async makeAPICall(URL, requestOptions) {
+  static async makeAPICall(URL: string, requestOptions: object) {
     try {
       const response = await fetch(URL, requestOptions);
       const data = await response.json();

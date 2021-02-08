@@ -11,7 +11,7 @@ const Character: React.FC<CharacterProps> = ({
   episodesData = [],
 }) => {
   const [t] = useTranslation();
-  const { showLoader, setLoaderState } = useStore();
+  const { setLoaderState } = useStore();
 
   //get the  episodes in which the character was een for the first time
   const getFirstSeenEpisodeName = (episodeURL: string) => {
