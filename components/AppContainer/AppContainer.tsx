@@ -9,7 +9,11 @@ const AppContainer: React.FC<{ characterData: any; episodesData: any }> = ({
 }) => {
   const [showLoader, setLoaderState] = React.useState(true);
   const [charData, setCharData] = React.useState(characterData);
-  const handlePagination = async (page: any) => {
+
+  //handle next and prev click
+  const handlePagination = async (page: string) => {
+    //page is the url coming from next/prev
+    //take only page number from url and make an api call
     const nextPageId = page.split("=")[1];
     const res = await CharacterService.fetchCharacterData(nextPageId);
     setCharData({ ...res });

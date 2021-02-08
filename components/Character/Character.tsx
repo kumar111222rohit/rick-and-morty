@@ -13,7 +13,11 @@ const Character: React.FC<CharacterProps> = ({
   const [t] = useTranslation();
   const { showLoader, setLoaderState } = useStore();
 
+  //get the  episodes in which the character was een for the first time
   const getFirstSeenEpisodeName = (episodeURL: string) => {
+    //get first episodeUrl from the array list
+    //split the url to get episode id
+    //find the episode id from the episodesData of context provider
     const splitArr = episodeURL.split("/");
     const eid = parseInt(splitArr[splitArr.length - 1]);
     const firstEP = episodesData.find((e: any) => e.id === eid);

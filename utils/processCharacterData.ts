@@ -1,8 +1,9 @@
 function processCharacterData(response) {
-	//return the response as it is because no preprocessing is required currently.
-	return response;
+  //return the response as it is because no preprocessing is required currently.
+  return response;
 }
 function processEpisodesData(response) {
-	return response;
+  //return the response as it is because no preprocessing is required currently.
+  return response;
 }
 export { processCharacterData, processEpisodesData };

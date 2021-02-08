@@ -1,15 +1,19 @@
-import React from 'react';
-import useStore from '../../hooks/useStore';
-import Character from '../Character/Character';
+import React from "react";
+import useStore from "../../hooks/useStore";
+import Character from "../Character/Character";
 
 const App = () => {
-	const { characterData, setLoaderState, episodesData, handlePagination } = useStore();
+  const { characterData, episodesData, handlePagination } = useStore();
 
-	return (
-		<>
-			<Character characterData={characterData} handlePagination={handlePagination} episodesData={episodesData} />
-		</>
-	);
+  return (
+    <>
+      <Character
+        characterData={characterData}
+        handlePagination={handlePagination}
+        episodesData={episodesData}
+      />
+    </>
+  );
 };
 
 export default App;

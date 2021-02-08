@@ -1,5 +1,5 @@
 import getURL from "../utils/rickAndMortyUrl";
-
+//generic APICall method
 export default class Character {
   static async makeAPICall(URL, requestOptions) {
     try {
@@ -12,6 +12,7 @@ export default class Character {
     }
   }
 
+  //get all character data on initial load
   static async fetchCharacterData(page: any) {
     const requestOptions = {
       method: "GET",
@@ -24,6 +25,7 @@ export default class Character {
       requestOptions
     );
   }
+  //get episodes data array
   static async fetchEpisodeData() {
     const requestOptions = {
       method: "GET",
