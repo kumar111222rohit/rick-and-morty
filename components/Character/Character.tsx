@@ -58,7 +58,7 @@ const Character: React.FC<CharacterProps> = ({
                 <div className="section">
                   <span className="text-gray">{t("last_location")}</span>
                   <a
-                    href="https://rickandmortyapi.com/api/location/6"
+                    href={item.location.url}
                     rel="nofollow noopener noreferrer"
                     target="_blank"
                     className="external-link"
@@ -69,7 +69,7 @@ const Character: React.FC<CharacterProps> = ({
                 <div className="section">
                   <span className="text-gray">First seen in </span>
                   <a
-                    href="https://rickandmortyapi.com/api/location/6"
+                    href={item.episode[0]}
                     rel="nofollow noopener noreferrer"
                     target="_blank"
                     className="external-link"
