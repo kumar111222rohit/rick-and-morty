@@ -18,3 +18,6 @@ yarn dev<br/>
 or npm run dev<br/>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
+
