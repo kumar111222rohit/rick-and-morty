@@ -1,21 +1,32 @@
 
 ## Getting Started
 
-First, run the install scripts:<br/>
+First, run the install scripts
 
-yarn install or npm  install<br/>
+```yarn install or npm  install```
 
-once the installation is done:<br/>
+once the installation is done
 
-For production build:<br/>
-yarn build <br/>
-or npm run build<br/>
-yarn start<br/>
-or npm run start<br/>
+For production build
 
-For Dev mode:<br/>
-yarn dev<br/>
-or npm run dev<br/>
+```yarn build``` 
+
+or 
+
+```npm run build```
+
+start the app
+
+```yarn start```
+
+or
+
+``` npm run start```
+
+For Dev mode:
+
+```yarn dev```
+or ```npm run dev```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
